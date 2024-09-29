@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bem-vindo ao gerador web</h1>
+    <p class="lead">Seu sistema gerador de arquivos.</p>
+
+    @if (User.Identity.IsAuthenticated)
+    {
+        <p>
+            <form asp-controller="Auth" asp-action="Logout" method="post">
+                <button type="submit" class="btn btn-danger">Logout</button>
+            </form>
+        </p>
+    }
+    else
+    {
+        <p>
+            <a href="@Url.Action("Login", "Auth")" class="btn btn-primary">Login</a>
+            <a href="@Url.Action("Registro", "Auth")" class="btn btn-success">Registrar</a>
+        </p>
+    }
+</div>

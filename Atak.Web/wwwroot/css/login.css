@@ -1,0 +1,108 @@
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.btn-primary {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+    .btn-primary:hover {
+        background-color: #4cae4c;
+    }
+
+.btn-secondary {
+    margin-left: 10px;
+}
+
+.forgot-password {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header, .modal-footer {
+    border: none;
+}
+
+.modal-header {
+    background-color: #5cb85c;
+    color: white;
+    text-align: center;
+}
+
+.modal-footer {
+    background-color: #f9f9f9;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.text-center {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.registration-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.registration-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group .form-control {
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-link {
+    color: #007bff;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.text-danger {
+    color: red;
+}
+
+.password-requirements {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-top: 5px;
+}
+
